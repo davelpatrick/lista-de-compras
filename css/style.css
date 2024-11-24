@@ -1,0 +1,123 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+}
+
+/* Imagem no canto superior direito */
+.top-right-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+/* Botões */
+button, a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, a.button:hover {
+    background-color: #0056b3;
+}
+
+a.button.delete {
+    background-color: #dc3545;
+}
+
+a.button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Formulários */
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
